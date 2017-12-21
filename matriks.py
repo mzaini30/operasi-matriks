@@ -7,3 +7,8 @@ data = np.array(data).T
 print data
 
 hasil = open('hasil.txt', 'w')
+for a, b in enumerate(data):
+	for c, d in enumerate(data[a]):
+		print d
+		print '\t'
+	print '\n'
